@@ -9,7 +9,6 @@ public class Memorygame {
         Scanner scanner = new Scanner(System.in);
         ArrayList<String> cards = new ArrayList<>();
 
-        // Add 4 pairs of cards
         cards.add("A"); cards.add("A");
         cards.add("B"); cards.add("B");
         cards.add("C"); cards.add("C");
@@ -78,3 +77,4 @@ public class Memorygame {
         System.out.println("|");
     }
 }
+
